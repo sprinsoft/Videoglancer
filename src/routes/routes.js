@@ -5,6 +5,8 @@ import About from '../pages/about';
 import PrivacyPolicy from '../pages/privacyPolicy';
 import Contact from '../pages/contact';
 import Layout from '../components/layout/layout';
+import TermOfUse from '../pages/termOfUse';
+import Disclaimer from '../pages/disclaimer';
 
 const AppRoute = () => {
     return (
@@ -15,6 +17,8 @@ const AppRoute = () => {
                     <Route path="about" element={<About />} />
                     <Route path="privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="contact" element={<Contact />} />
+                    <Route path="term-of-use" element={<TermOfUse />} />
+                    <Route path="disclaimer" element={<Disclaimer />} />
                 </Route>
             </Routes>
         </Router>
